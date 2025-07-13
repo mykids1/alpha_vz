@@ -643,7 +643,8 @@ function ins_openvpn(){
 clear
 print_install "Menginstall OpenVPN"
 #OpenVPN
-wget https://raw.githubusercontent.com/hokagelegend9999/alpha_vz/refs/heads/main/config/openvpn  chmod +x openvpn && ./openvpn
+sudo apt install openvpn easy-rsa -y
+wget https://raw.githubusercontent.com/hokagelegend9999/alpha_vz/refs/heads/main/config/openvpn && chmod +x openvpn && ./openvpn
 /etc/init.d/openvpn restart
 print_success "OpenVPN"
 }
