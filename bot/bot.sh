@@ -9,7 +9,7 @@ NC='\e[0m'
 apt update && apt upgrade
 apt install python3 python3-pip git
 cd /usr/bin
-wget https://github.com/hokagelegend9999/alpha.v2/raw/refs/heads/main/bot/bot.zip
+wget https://raw.githubusercontent.com/hokagelegend9999/alpha_vz/refs/heads/main/bot/bot.zip
 unzip bot.zip
 mv bot/* /usr/bin
 chmod +x /usr/bin/*
