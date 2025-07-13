@@ -1,7 +1,7 @@
 #!/bin/bash
-# Edition : Stable Edition V3.0
+# Edition : Stable Edition VZ
 # Auther  : Hokage Legend
-# (C) Copyright 2024
+# (C) Copyright 2025
 # =========================================
 
 red='\e[1;31m'
