@@ -15,7 +15,7 @@ mv bot/* /usr/bin
 chmod +x /usr/bin/*
 rm -rf bot.zip
 clear
-wget https://github.com/hokagelegend9999/alpha.v2/raw/refs/heads/main/bot/kyt.zip
+wget https://github.com/hokagelegend9999/alpha_vz/raw/refs/heads/main/bot/kyt.zip
 unzip kyt.zip
 pip3 install -r kyt/requirements.txt
 
